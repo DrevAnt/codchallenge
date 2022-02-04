@@ -5,6 +5,7 @@ function ShowHide() {
   return (
     <>
       <div className="showhide">
+        <h3>Show/Hide Element on Screen</h3>
         <button onClick={() => setShow(!show)}>
           {show ? "Hide me" : "Show me"}
         </button>

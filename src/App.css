@@ -80,3 +80,10 @@ select {
   align-items: center;
   justify-content: center;
 }
+.databind {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
