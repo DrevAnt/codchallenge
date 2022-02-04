@@ -3,6 +3,7 @@ import DisplayArray from "./Component/DisplayArray/DisplayArray";
 import ShowHide from "./Component/ShowHide/ShowHide";
 import DataBind from "./Component/DataBind/DataBind";
 import DisableButton from "./Component/DisableButton/DisableButton";
+import ParentState from "./Component/ParentState/ParentState";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ShowHide />
       <DataBind />
       <DisableButton />
+      <ParentState />
     </div>
   );
 }
