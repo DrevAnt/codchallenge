@@ -5,6 +5,7 @@ import DataBind from "./Component/DataBind/DataBind";
 import DisableButton from "./Component/DisableButton/DisableButton";
 import ParentState from "./Component/ParentState/ParentState";
 import ParentProps from "./Component/ParentProps/ParentProps";
+import SumOf from "./Component/SumOf/SumOf";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <DataBind />
       <DisableButton />
       <ParentState />
+      <SumOf />
     </div>
   );
 }
