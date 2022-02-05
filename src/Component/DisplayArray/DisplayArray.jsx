@@ -8,8 +8,10 @@ function DisplayArray() {
   const userList = users.map((user) => <li key={user.id}>{user.name}</li>);
   return (
     <>
-      <h3 style={{ textAlign: "center" }}>User Names</h3>
-      <ul className="displayarray">{userList}</ul>
+      <div className="displayarray">
+        <h3 style={{ textAlign: "center" }}>User Names</h3>
+        <ul>{userList}</ul>
+      </div>
     </>
   );
 }
