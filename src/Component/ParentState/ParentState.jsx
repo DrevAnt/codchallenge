@@ -16,7 +16,7 @@ function ParentState() {
   const [value, setValue] = useState("Update me from child");
   return (
     <>
-      <div className="showhide">
+      <div className="element">
         <h3>Update Parent State (callback)</h3>
         <div>Parent</div>
         <div>{value}</div>

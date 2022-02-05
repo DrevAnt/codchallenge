@@ -5,7 +5,7 @@ function DataBind() {
   const [value, setValue] = useState("");
   return (
     <>
-      <div className="databind">
+      <div className="element">
         <h3>2 Way Data Binding (Solution)</h3>
         <input
           type="text"

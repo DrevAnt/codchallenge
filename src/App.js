@@ -6,19 +6,24 @@ import DisableButton from "./Component/DisableButton/DisableButton";
 import ParentState from "./Component/ParentState/ParentState";
 import ParentProps from "./Component/ParentProps/ParentProps";
 import SumOf from "./Component/SumOf/SumOf";
+import Counter from "./Component/Counter/Counter";
 
 function App() {
   return (
-    <div className="App">
-      <ParentProps>
-        <DisplayArray />
-      </ParentProps>
-      <ShowHide />
-      <DataBind />
-      <DisableButton />
-      <ParentState />
-      <SumOf />
-    </div>
+    <>
+      <div className="App">
+        <ParentProps>
+          <DisplayArray />
+        </ParentProps>
+
+        <ShowHide />
+        <DataBind />
+        <DisableButton />
+        <ParentState />
+        <SumOf />
+        <Counter />
+      </div>
+    </>
   );
 }
 

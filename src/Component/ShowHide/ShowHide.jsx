@@ -4,7 +4,7 @@ function ShowHide() {
   const [show, setShow] = useState(true);
   return (
     <>
-      <div className="showhide">
+      <div className="element">
         <h3>Show/Hide Element on Screen</h3>
         <button onClick={() => setShow(!show)}>
           {show ? "Hide me" : "Show me"}

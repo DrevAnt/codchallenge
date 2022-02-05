@@ -11,7 +11,7 @@ function SumOf() {
   }
 
   return (
-    <div className="displayarray">
+    <div className="element">
       <h3>Add 2 numbers</h3>
       <input
         placeholder="First Number"
